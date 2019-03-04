@@ -1,0 +1,88 @@
+header {
+    background-image: url(../Images/design2_image1.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 90%;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 5%
+
+}
+
+h1 {
+    font-size: 56px;
+    top: 0%;
+    position: absolute
+}
+
+.logo {
+    top: 85%;
+    left: 5%;
+    height: 200px;
+    width 200px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    top: 60%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 0;
+    ;
+}
+
+
+.topnav {
+    
+    text-align: right;
+    width: 90%;
+    height: 100%;
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 15%;
+    padding: 20px;
+
+}
+
+.topnav a {
+    box-shadow: 10px 10px black; 
+    display: absolute;
+    background-color: azure;
+    border: 1px solid blue;
+    padding: 20px;
+
+}
+
+a:hover {
+    background-color: darkseagreen;
+}
+
+.selected {color: green;}
+
+.content {
+    display: inline-block;
+    text-align: top;
+    width: 70%;
+}
+
+
+h3 {
+    text-align: top;
+    position: relative;
+    padding: 20px;
+    margin-left: 500px;
+
+}
+
+p {
+    margin-left: 600px;
+}

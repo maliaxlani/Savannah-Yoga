@@ -1,0 +1,62 @@
+
+header {
+    background-image: url(../Images/design1_image1.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {font-size: 56px;}
+
+.logo {
+    top: 65%;
+    left: 70%;
+    height: 150px;
+    width 150px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    top: 60%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 0    ;
+    ;
+}
+.topnav {
+    text-align: left;
+    width: 20%;
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.topnav a {
+    display: inline-block;
+    color: blue;
+    padding: 20px;
+    text-decoration: underline;
+    display: block;
+    margin-top: 60px
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    width: 70%
+}
+    
+
+h3 {text-align: left;
+    position: relative;
+    padding: 20px;
+
+}
+
+p {
+    margin-left: 100px;
+}
