@@ -1,0 +1,392 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+     background-image: url(/savannah_files/savbanner.jpeg);
+    background-size: cover;
+    height: 300px;
+    justify-content:space-between;
+
+    align-content: space-around;
+
+
+}
+
+.logo {
+    display: flex;
+    align-self:flex-start;
+    flex-direction: row;
+    height: 300px;
+    width: 400px;
+    border: 5px solid lightblue;
+}
+
+
+body {
+
+    background-image: url(/savannah_files/savbackground.jpg);
+    background-size: contain;
+
+
+}
+
+
+.topnav {margin-top: 20%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    position:absolute;
+  
+
+
+
+}
+
+.topnav a {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 2px 2px black;
+    font color: orange;
+    font-size: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 20px;
+    margin-left: 7px;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 13em/3em;
+
+}
+
+a:hover {
+    background-color: azure;
+}
+
+.selected {
+    color: black;
+    text-decoration: underline;
+}
+
+content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    border: black solid 1px;
+    background-color: a;
+    font-family: serif;
+    width: 100%;
+    
+
+}
+
+
+h1 {display: flex;
+    justify-content: center;
+    flex direction: row;
+    align-self: center;
+    width: 100%;
+    font-size: 64px;
+    color: white;
+    text-decoration: border;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+}
+main {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+   
+}
+
+h2 {border: 5px solid black;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: Roboto, system-ui, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+h3 {border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    font-family: Roboto, system-ui, sans-serif;
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+   
+
+}
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    background-color: white;
+    border: 5px solid black;
+    background-color: white;
+    font-size: 21px;
+    width: 40%;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.lessons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 21px;
+    width: 40%;
+    margin-left: 8%;
+    padding: 10px;
+    margin-top: 3%;
+    text-align: center;
+   
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    height: 60%;
+    width: 30%;
+    border: 5px solid black;
+    flex-wrap:wrap; 
+    margin-top: -444px;
+
+}
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    height: 60%;
+    width: 30%;
+    border: 5px solid black;
+    flex-wrap:wrap; 
+    margin-top: -82%;
+
+}
+.footer3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    height: 60%;
+    width: 30%;
+    border: 5px solid black;
+    flex-wrap:wrap; 
+    margin-top: 12%;
+
+}
+.footer4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    height: 30%;
+    width: 30%;
+    border: 5px solid black;
+    flex-wrap:wrap; 
+    margin-top: -30%;
+
+}
+.footer5 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    height: 30%;
+    width: 30%;
+    border: 5px solid black;
+    flex-wrap:wrap; 
+    margin-top: 10%;
+
+}
+.footer6 {
+    display: flex;
+    flex-direction:column;
+justify-content: center;
+   align-self: center;
+    height: 60%;
+    width: 70%;
+    border: 5px solid black;
+
+    margin-top: 10%;
+
+}
+
+
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border: solid black 5px;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border: solid black 5px;
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.policies1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border: solid black 5px;
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}.policies2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border: solid black 5px;
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}.policies3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border: solid black 5px;
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+table {
+    position: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px, black;
+    background-color: white;
+    width: 80%;
+
+
+}
+
+
+tr {
+    border: 4px solid  black;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+
+td {
+    border: 3px solid black;
+    height: 50px;
+    vertical-align: center;
+    font-size: 18px;
+
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px;
+    border: .5px solid black;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+
+.agreement {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.submit {
+    border: 2px solid blue;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    margin-left: 45%;
+    justify-content: center;
+    width: 11%;
+}
